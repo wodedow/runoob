@@ -1,0 +1,60 @@
+{
+    // The Settings of Code Runer
+    "code-runner.executorMap": {
+        "python": "$pythonPath $fullFileName",
+        "code-runner.runInTerminal": true,
+    },
+    "code-runner.runInTerminal": true,
+    // The Settings of tokenColor
+    "editor.tokenColorCustomizations": {
+        "[GitHub Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "meta.function-call.generic.python"
+                    ],
+                    "settings": {
+                        "foreground": "#B392F0"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.class.python"
+                    ],
+                    "settings": {
+                        "foreground": "#4CAEE2"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter.function.language.special.self.python"
+                    ],
+                    "settings": {
+                        "foreground": "#79B8FF",
+                    }
+                }
+            ]
+        },
+        "[GitHub Light]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "meta.function-call.generic.python"
+                    ],
+                    "settings": {
+                        "foreground": "#B392F0"
+                    }
+                }
+            ]
+        }
+    },
+    // The Settings of Base Editor
+    "editor.fontSize": 15.5,
+    "editor.fontFamily": "Fira Code,Inconsolata,Consolas, 'Courier New', monospace, 方正仿宋_GBK",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2
+}
